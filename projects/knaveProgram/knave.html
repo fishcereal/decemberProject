@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+<script src="../../jquery.js"></script>
+<script src="classes.js"></script>
+<script src="knave.js"></script>
+<link href="knave.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+  <h1>Knave <br> Character <br> Generator</h1>
+<div class="mainDiv">
+  <!-- trait button grid -->
+  <div class="traitsGrid">
+    <div class="gridRow row1">
+        <button onclick="setAllTraitsRandom()" type="button" id="allButton" class="allButton"><strong>Randomize All Traits</strong></button>
+        <button onclick="setArrayValue(0)" class="generateGender" type="button" id="gender">Gender: <br /><div id="genderNewLine"></div></button>
+        <button onclick="setArrayValue(1)" class="generatePhysique" type="button" id='physique'>Physique: <br /><div id="physiqueNewLine"></div></button>
+    </div>
+    <div class="gridRow row2">
+        <button onclick="setArrayValue(2)" class="generateFace" type="button" id='face'>Face: <br /><div id="faceNewLine"></div></button>
+        <button onclick="setArrayValue(3)" class="generateSkin" type="button" id='skin'>Skin: <br /><div id="skinNewLine"></div></button>
+        <button onclick="setArrayValue(4)" class="generateHair" type="button" id='hair'>Hair: <br /><div id="hairNewLine"></div></button>
+    </div>
+    <div class="gridRow row3">
+        <button onclick="setArrayValue(5)" class="generateClothing" type="button" id='clothing'>Clothing: <br /><div id="clothingNewLine"></div></button>
+        <button onclick="setArrayValue(6)" class="generateVirtue" type="button" id='virtue'>Virtue: <br /><div id="virtueNewLine"></div></button>
+        <button onclick="setArrayValue(7)" class="generateVice" type="button" id='vice'>Vice: <br /><div id="viceNewLine"></div></button>
+    </div>
+    <div class="gridRow row4">
+          <button onclick="setArrayValue(8)" class="generateSpeech" type="button" id='speech'>Speech: <br /><div id="speechNewLine"></div></button>
+          <button onclick="setArrayValue(9)" class="generateBackground" type="button" id='background'>Background: <br /><div id="backgroundNewLine"></div></button>
+          <button onclick="setArrayValue(10)" class="generateMisfortune" type="button" id='misfortune'>Misfortune: <br /><div id="misfortuneNewLine"></div></button>
+    </div>
+  </div>
+
+  <div class="columnSeperator"></div>
+
+  <!-- ability scores  -->
+<div class="columnClass">
+  <div class="stats">
+    <button onclick="setAllAbilityScoresRandom()" type="button" class="wideButton" class="allButton"><strong>Randomize All Ability Scores</strong></button>
+      <div id='strength'>
+        Str:
+      </div>
+      <div id='dexterity'>
+        Dex:
+      </div>
+      <div id='constitution'>
+        Con:
+      </div>
+      <div id='intelligence'>
+        Int:
+      </div>
+      <div id='wisdom'>
+        Wis:
+      </div>
+      <div id='charisma'>
+        Cha:
+      </div>
+      <div id='hp'>
+        hp
+      </div>
+      <br>
+    </div>
+</div>
+
+<div class="columnSeperator"></div>
+
+<!-- items  -->
+<div class="items">
+  <div class="stats">
+  <button onclick="setItemStatsRandom()" type="button" class="allButton wideButton"><strong>Randomize All Item Stats</strong></button>
+    <div id='itemSlots'>
+      Item Slots:
+    </div>
+    <div id='bodyArmor'>
+      bodyArmor
+    </div>
+    <div id='headArmor'>
+      headArmor
+    </div>
+    <div id='shieldArmor'>
+      shieldArmor
+    </div>
+    <div id='totalArmor'>
+      totalArmor
+    </div>
+    <div id='otherGear'>
+        dungeoneeringGear1
+    </div>
+    <div id='dungeoneeringGear2'>
+        <!-- dungeoneeringGear2  -->
+    </div>
+    <div id='generalGear1'>
+        <!-- generalGear1  -->
+    </div>
+    <div id='generalGear2'>
+        <!-- generalGear2  -->
+    </div>
+  </div>
+</div>
+
+</div>
+
+</body>

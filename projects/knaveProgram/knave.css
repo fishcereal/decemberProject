@@ -1,0 +1,86 @@
+body {
+  background: white;
+  font-family: cursive;
+  line-height: 1.5;
+  }
+
+h1{
+  font: bold;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.mainDiv {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.columnClass{
+  flex-flow: column wrap;
+}
+
+.allButton {
+  font-style: bold;
+  padding: 0px; 
+}
+
+button {
+  background-color: rgba(0,0,0,0);
+  color: rgba(0,0,0,1); 
+  border: 2px solid rgba(0,0,0,1);
+  width: 120px;
+  height: 65px;
+  font-size: 16px;  
+}
+
+.traitsGrid{
+  width: 370px;
+  min-width: 370px;
+  min-block-size: 100%;
+  height: 300px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto ;
+  grid-column-gap: 0px; 
+  grid-row-gap: 0px;
+  justify-items: center; 
+}
+
+.row1{ 
+  grid-row-start: 1;
+}
+.row2{ 
+  grid-row-start: 2;
+}.row3{ 
+  grid-row-start: 3;
+}
+.row4{ 
+  grid-row-start: 4;
+}
+
+.wideButton {
+  width:370px;
+  height: 65px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.stats{
+  width: 370px;
+  height: 250px;
+  padding: 0px 0px 10px 0px;
+}
+
+.gridRow{
+  justify-content: space-evenly;
+  height:75px;
+}
+
+#hp {
+  height: 48px;
+}
+
+.columnSeperator{
+  padding: 0px 5px 0px 5px;
+}

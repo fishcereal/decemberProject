@@ -1,3 +1,4 @@
+//test 
 var traits, gender, physique, face, skin,hair,clothing,virtue,vice,speech,background,misfortunes;
 var genderValue, physiqueValue, faceValue, skinValue,hairValue,clothingValue,virtueValue,viceValue,speechValue,backgroundValue,misfortunesValue;
 traits = [
